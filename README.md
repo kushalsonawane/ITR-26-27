@@ -1,4 +1,4 @@
-s## Concepts combined
+## Concepts combined
 
 - CSS reset with `*`
 - Element, class, id, grouped, and attribute selectors
@@ -13,7 +13,7 @@ s## Concepts combined
 - Float layout with clearfix
 - Responsive layout with a media query
 
-## Files
+## Files3
 
 - `index.html` contains the page structure
 - `style.css` contains the combined CSS concepts
