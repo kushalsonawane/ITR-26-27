@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Fusion Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero" id="top">
+        <nav class="site-nav">
+            <a class="brand" href="#top">CSS Fusion</a>
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#concepts">Concepts</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-copy">
+            <p class="eyebrow">HTML + CSS Practice Project</p>
+            <h1>One page built from the concepts in your training folder.</h1>
+            <p class="lead">
+                This demo combines selectors, specificity, box model, display types,
+                pseudo-classes, pseudo-elements, units, floats, and positions into a
+                single responsive layout.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#concepts">Explore Concepts</a>
+                <a class="btn btn-secondary" href="#contact" data-role="outline">Contact Section</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <section class="panel" id="about">
+            <h2 class="section-title">About This Build</h2>
+            <p>
+                The original folder is a collection of small exercises. This page turns
+                those isolated lessons into one coherent design. It uses inheritance for
+                typography, utility classes for reuse, and a reset to keep spacing
+                consistent across browsers.
+            </p>
+            <p class="note">
+                Watch the sticky navigation, hover states, alternating cards, highlighted
+                selection colors, and the legacy float example further below.
+            </p>
+        </section>
+
+        <section class="panel" id="concepts">
+            <h2 class="section-title">Concept Showcase</h2>
+            <div class="card-grid">
+                <article class="concept-card">
+                    <h3>Selectors and Specificity</h3>
+                    <p>
+                        Tag, class, id, attribute, and grouped selectors are used
+                        throughout the page to style related elements with clear priority.
+                    </p>
+                    <a href="https://example.com">Demo link</a>
+                </article>
+                <article class="concept-card featured-card">
+                    <h3>Box Model and Display</h3>
+                    <p>
+                        Borders, padding, margin, inline-block buttons, and width controls
+                        shape the layout while keeping each section easy to read.
+                    </p>
+                    <a href="https://layout.dev">Layout note</a>
+                </article>
+                <article class="concept-card">
+                    <h3>Pseudo Classes and Elements</h3>
+                    <p>
+                        Hover, focus-visible, nth-child, first-letter, before, and after
+                        add interaction and decorative details without extra markup.
+                    </p>
+                    <a href="https://states.dev">State styles</a>
+                </article>
+                <article class="concept-card">
+                    <h3>Units, Floats, and Positions</h3>
+                    <p>
+                        Rem, em, percentages, viewport units, sticky positioning, and a
+                        small float-based layout show both modern and legacy CSS ideas.
+                    </p>
+                    <a href="https://units.dev">Units overview</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel gallery-panel" id="gallery">
+            <h2 class="section-title">Mini Gallery</h2>
+            <div class="gallery">
+                <figure class="tile tile-tall">
+                    <div class="art art-sunrise"></div>
+                    <figcaption>Viewport-inspired hero block</figcaption>
+                </figure>
+                <figure class="tile">
+                    <div class="art art-grid"></div>
+                    <figcaption>Pattern built with gradients</figcaption>
+                </figure>
+                <figure class="tile">
+                    <div class="art art-orbit"></div>
+                    <figcaption>Layering with absolute positioning</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="panel" id="legacy-layout">
+            <h2 class="section-title">Legacy Float Layout</h2>
+            <div class="float-demo">
+                <div class="float-card left-float">
+                    <h3>Float Left</h3>
+                    <p>
+                        This card uses a classic float layout to reflect the examples in
+                        the source folder.
+                    </p>
+                </div>
+                <div class="float-card right-float">
+                    <h3>Float Right</h3>
+                    <p>
+                        A clearfix keeps the parent from collapsing, which was a key part
+                        of float-based layouts.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </section>
+
+        <section class="panel contact-panel" id="contact">
+            <h2 class="section-title">Contact Style Demo</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name">
+
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="name@example.com">
+
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Type securely">
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Write something thoughtful"></textarea>
+
+                <button class="btn btn-primary" type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
