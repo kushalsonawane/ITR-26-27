@@ -1,0 +1,11 @@
+button:hover{
+    background-color:lightblue;
+}
+
+li:first-child{
+    color:red;
+}
+
+li:nth-child(2){
+    color:green;
+}

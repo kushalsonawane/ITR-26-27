@@ -1,0 +1,30 @@
+body{
+    font-family: "Poppins", sans-serif;
+    color:#444;
+
+}
+
+hr{
+    width: 500px;
+    margin-left:0px;
+    border:0.5px dashed black;
+}
+
+.box1{
+   box-sizing:border-box ;
+   width: 500px;
+   background-color: rgb(244, 136, 244);
+   border: 5px solid rgb(58, 2, 62);
+   padding:50px;
+   margin-bottom: 50px;
+}
+
+
+.box2{
+    box-sizing: border-box;/*default*/
+    width: 500px;
+    background-color: rgb(173, 126, 248);
+    border: 5px solid rgb(32, 3, 73);
+    padding:50px;
+    
+ }
