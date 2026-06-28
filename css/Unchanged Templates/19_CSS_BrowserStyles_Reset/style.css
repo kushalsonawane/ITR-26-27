@@ -1,0 +1,20 @@
+/* CSS Practice - 19_CSS_BrowserStyles_Reset task */
+/*Default Brower Styles and CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px;
+}
+p{
+    margin: 8px 20px;
+}
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

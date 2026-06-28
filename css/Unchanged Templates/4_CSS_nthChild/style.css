@@ -1,0 +1,42 @@
+/* Learning CSS: 4_CSS_nthChild */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900;800&display=swap");
+
+body{
+ 
+    font-family: "Poppins", sans-serif;
+}
+
+/* p:nth-child(2){
+    color:forestgreen;
+} */
+
+/*
+2n --> even
+2n+1 --> odd
+*/
+
+/* p:nth-child(2n){ 
+    color:green;
+}
+*/
+p:nth-of-type(2){
+    color:red;
+
+}
+
+/*
+n  -->
+2n --> even
+2n+1 --> odd
+*/
+ul li:nth-child(2n+1){
+    color: red;
+}
+
+
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

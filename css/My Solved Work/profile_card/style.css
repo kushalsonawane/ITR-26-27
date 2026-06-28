@@ -1,0 +1,27 @@
+/* Practice for profile card */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+     margin-top:50px; 
+}
+
+.card
+{
+    border:5px solid #1a1a1a;
+    padding:20px;
+    text-align: center;
+    width: 500px;
+}
+img{
+    
+     width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

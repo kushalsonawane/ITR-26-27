@@ -1,0 +1,28 @@
+/* Practice for 20 CSS Inheritance */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    color:crimson;
+}
+
+.container1{
+    color: forestgreen;
+}
+.container2{
+    color: aqua;
+}
+h1{
+    color:orange;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

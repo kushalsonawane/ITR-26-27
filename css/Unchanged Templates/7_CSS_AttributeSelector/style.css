@@ -1,0 +1,46 @@
+/* CSS Practice - 7_CSS_AttributeSelector task */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+input[type = "password"]{
+    color : darkorchid;
+}
+input[type = "text"]{
+    color : crimson;
+    background-color : aqua;
+}
+
+/* 
+a[href ="https://google.co.in"]{ 
+    color: red;
+}
+*/
+
+/*
+ Universal Selector 
+ used for Particular word
+*/
+a[href *="google"]{ 
+    color: red;
+}
+
+/*caret Symbol*/
+a[href ^="https"]{ 
+    color: forestgreen;
+}
+
+a[href $=".com"]{ 
+ color: red;
+}
+
+input[type ^="t"]{ 
+    color: green;
+}
+input[password ^="t"]{ 
+    color: rebeccapurple;
+}
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

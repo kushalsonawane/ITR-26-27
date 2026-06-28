@@ -1,0 +1,32 @@
+.box {
+    width: 50px; /* Original size */
+    height: 50px; /* Original size */
+    background: rgb(220, 20, 60); /* Changed color using rgb() - kept static */
+    border-radius: 50%; /* Original circle shape */
+    position: relative;
+    
+    animation: move-around 5s forwards 2s ease-in infinite;
+}
+
+@keyframes move-around {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 300px;
+    }
+    50% {
+        top: 300px;
+        left: 300px;
+    }
+    75% {
+        top: 300px;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}

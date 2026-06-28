@@ -1,0 +1,10 @@
+/* CSS Practice - 1_CSS_Styling_Ways task */
+h1{
+    color: royalblue;
+}
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

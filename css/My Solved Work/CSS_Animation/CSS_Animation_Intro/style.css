@@ -1,0 +1,23 @@
+.box1 {
+    width: 100px; /* Original square shape */
+    height: 100px; /* Original square shape */
+    background: rgb(0, 102, 204); /* Changed color using rgb() - kept static */
+}
+
+.box2 {
+    width: 15px; /* Original rect shape */
+    height: 10px; /* Original rect shape */
+    background: rgb(153, 51, 153); /* Changed color using rgb() - kept static */
+    animation-name: grow-width;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow-width {
+    from {
+        width: 0;
+    }
+    to {
+        width: 1200px; /* Original width limit */
+    }
+}

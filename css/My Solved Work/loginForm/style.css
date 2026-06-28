@@ -1,0 +1,19 @@
+/* Practice for loginForm */
+body{
+    diplay:flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Login
+{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 20px;
+text-align: center;
+}
+
+/* Custom practice styling */
+.practice-highlight {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body{
+        background-color: rgb(255, 255, 255);
+
+    }
+    .container1{
+        height: 100px;
+        width: 100px;
+        border: 2px dashed #666;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+   </style>
+</head>
+<body>
+
+       <div class="container1">
+           <img id="fruitImage" src="fruit.png" alt="Fruits" style="width: 100%; height: 100%; object-fit: cover;" />
+       </div>
+        <div class="container">
+            <h2>Filter Fruits By Type</h2>
+            <select id="fruitType">
+                <option value="all">All</option>
+                <option value="citrus">Citrus</option>
+                <option value="berry">Berry</option>
+                <option value="stone">Stone Fruit</option>
+            </select>
+            <button id="filterBtn">Filter</button>
+            <ul id="fruitList">
+                <!-- Fruits will be displayed here -->
+            </ul>
+        </div>
+        <script src="filterfruit.js" defer></script>
+</body>
+
+</html>
