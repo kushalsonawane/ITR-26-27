@@ -1,5 +1,24 @@
-# Day 20: PostgreSQL Introduction
+# Day 20: Node.js & npm Core Concepts
 
-- Installed PostgreSQL database client and pgAdmin4 management interface.
-- Created connection parameters for database username `postgres`, password `root`, and database name `test_db`.
-- Studied relational databases, tables, keys, and schemas.
+### Objective
+Initialize backend environments, configure packages, and run Node processes.
+
+### Key Learnings
+- **Package Management**: Set up packages configurations via package.json.
+- **NPM Scripts**: Created shortcut keys for starting servers.
+- **Module Runtimes**: Used CommonJS module require statements to load dependencies.
+
+### Code Practice
+```json
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+```

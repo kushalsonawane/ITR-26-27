@@ -1,5 +1,23 @@
-# Day 25: React State & Fetch
+# Day 25: React & Vite Architecture
 
-- Connected client-side components to local Express server port 5000.
-- Implemented `useState` hooks to manage server data arrays and form fields.
-- Implemented `useEffect` hooks to fetch users list and products list.
+### Objective
+Initialize React application templates using Vite and understand components.
+
+### Key Learnings
+- **Vite Setup**: Setup quick dev pipelines using npx create-vite.
+- **Component Structures**: Created simple JS components returning UI elements.
+- **DOM Injection**: Understood index.html root anchor points.
+
+### Code Practice
+```javascript
+// main.jsx entry point
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+```
