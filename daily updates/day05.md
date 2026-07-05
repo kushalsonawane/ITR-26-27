@@ -25,3 +25,7 @@ Learn CSS animations, hover transitions, and transform operations to enhance vis
   transform: scale(1.05);
 }
 ```
+
+### Exercises Completed
+1. Developed micro-animations for card hovers.
+2. Formatted a rotating CSS loading icon.

@@ -1,4 +1,4 @@
-# Day 3: CSS Basics & Styled Components
+# Day 3: CSS Fundamentals & Box Model
 
 ### Objective
 Master core Cascading Style Sheet syntax, properties, selectors, and Box Model components.
